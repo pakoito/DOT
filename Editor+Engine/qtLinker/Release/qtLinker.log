@@ -1,0 +1,32 @@
+﻿Build started 9/10/2014 6:29:42 PM.
+     1>Project "C:\Users\Andrew\Desktop\Social_2\qtLinker\qtLinker.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\qtLinker.tlog\unsuccessfulbuild".
+       CustomBuild:
+         Moc'ing qtlinker.h...
+         Moc'ing runner.h...
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.3\msvc2013\include /I.\GeneratedFiles\Release /IC:\Qt\5.3\msvc2013\include\QtCore /IC:\Qt\5.3\msvc2013\include\QtGui /IC:\Qt\5.3\msvc2013\include\QtWidgets /IC:\Qt\5.3\msvc2013\include\QtConcurrent /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D QT_NO_OPENGL /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_CONCURRENT_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_qtlinker.cpp
+         qrc_qtlinker.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.3\msvc2013\include /I.\GeneratedFiles\Release /IC:\Qt\5.3\msvc2013\include\QtCore /IC:\Qt\5.3\msvc2013\include\QtGui /IC:\Qt\5.3\msvc2013\include\QtWidgets /IC:\Qt\5.3\msvc2013\include\QtConcurrent /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D QT_NO_OPENGL /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_CONCURRENT_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_qtlinker.cpp GeneratedFiles\Release\moc_runner.cpp main.cpp qtlinker.cpp runner.cpp
+         moc_qtlinker.cpp
+         moc_runner.cpp
+         main.cpp
+         qtlinker.cpp
+         runner.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andrew\Desktop\Social_2\Win32\Release\\qtLinker.exe" /NOLOGO /LIBPATH:C:\Qt\5.3\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib Qt5Concurrent.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\Andrew\Desktop\Social_2\Win32\Release\qtLinker.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andrew\Desktop\Social_2\Win32\Release\qtLinker.lib" /MACHINE:X86 /SAFESEH Release\qrc_qtlinker.obj
+         Release\moc_qtlinker.obj
+         Release\moc_runner.obj
+         Release\main.obj
+         Release\qtlinker.obj
+         Release\runner.obj
+     1>runner.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static int __cdecl runner::run(class std::shared_ptr<class CEntity>,class std::shared_ptr<class CEntity>,class std::shared_ptr<class CEntity>,int &)" (__imp_?run@runner@@SAHV?$shared_ptr@VCEntity@@@std@@00AAH@Z) referenced in function "void __cdecl threadRun(class std::shared_ptr<class CEntity>,class std::shared_ptr<class CEntity>,class std::shared_ptr<class CEntity>,int &,class runner)" (?threadRun@@YAXV?$shared_ptr@VCEntity@@@std@@00AAHVrunner@@@Z)
+     1>C:\Users\Andrew\Desktop\Social_2\Win32\Release\\qtLinker.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Andrew\Desktop\Social_2\qtLinker\qtLinker.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:22.65

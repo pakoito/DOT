@@ -1,0 +1,67 @@
+﻿Build started 11/18/2014 4:06:37 PM.
+     1>Project "C:\Users\Louis\Desktop\DOTV04UNSTABLE_03\DOT\qtLinker\qtLinker.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (qtLinker.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_GradEditor.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_GradEditor.cpp, GeneratedFiles\Release\moc_GradEditor.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_GridEditor.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_GridEditor.cpp, GeneratedFiles\Release\moc_GridEditor.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_Inheritance.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_Inheritance.cpp, GeneratedFiles\Release\moc_Inheritance.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_MainWindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_MainWindow.cpp, GeneratedFiles\Release\moc_MainWindow.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_ObjectEditor.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_ObjectEditor.cpp, GeneratedFiles\Release\moc_ObjectEditor.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_qcustomplot.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_qcustomplot.cpp, GeneratedFiles\Release\moc_qcustomplot.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_qpiemenu.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_qpiemenu.cpp, GeneratedFiles\Release\moc_qpiemenu.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_qtlinker.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_qtlinker.cpp, GeneratedFiles\Release\moc_qtlinker.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_runner.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_runner.cpp, GeneratedFiles\Release\moc_runner.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_sidebar.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_sidebar.cpp, GeneratedFiles\Release\moc_sidebar.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_SliderBoxWidget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_SliderBoxWidget.cpp, GeneratedFiles\Release\moc_SliderBoxWidget.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_TextBoxWidget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_TextBoxWidget.cpp, GeneratedFiles\Release\moc_TextBoxWidget.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_TreeView.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_TreeView.cpp, GeneratedFiles\Release\moc_TreeView.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_TreeViewEntity.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_TreeViewEntity.cpp, GeneratedFiles\Release\moc_TreeViewEntity.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_TreeWidget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_TreeWidget.cpp, GeneratedFiles\Release\moc_TreeWidget.cpp.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /I"E:\Qt\Qt5.3.1-32-Windows\5.3\msvc2013\include" /I.\GeneratedFiles\Debug /I"E:\Qt\Qt5.3.1-32-Windows\5.3\msvc2013\include\QtCore" /I"E:\Qt\Qt5.3.1-32-Windows\5.3\msvc2013\include\QtGui" /I"E:\Qt\Qt5.3.1-32-Windows\5.3\msvc2013\include\QtWidgets" /I"E:\Qt\Qt5.3.1-32-Windows\5.3\msvc2013\include\QtConcurrent" /I"E:\Qt\Qt5.3.1-32-Windows\5.3\msvc2013\include\QtOpenGL" /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_NO_OPENGL /D QT_CONCURRENT_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt runner.cpp
+         runner.cpp
+     1>c:\users\louis\desktop\dotv04unstable_03\dot\qtlinker\runner.cpp(517): warning C4715: 'Interop::PlotFFT' : not all control paths return a value
+     1>c:\users\louis\desktop\dotv04unstable_03\dot\qtlinker\writexml.h(264): warning C4700: uninitialized local variable 'token' used
+     1>c:\users\louis\desktop\dotv04unstable_03\dot\qtlinker\writexml.h(283): warning C4700: uninitialized local variable 'token2' used
+     1>c:\users\louis\desktop\dotv04unstable_03\dot\qtlinker\writexml.h(340): warning C4700: uninitialized local variable 'token2' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Louis\Desktop\DOTV04UNSTABLE_03\DOT\Debug\DOT_Editor.exe" /NOLOGO /LIBPATH:"E:\Qt\Qt5.3.1-32-Windows\5.3\msvc2013/lib" ..\Debug\DOT.lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Concurrentd.lib Qt5OpenGLd.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Louis\Desktop\DOTV04UNSTABLE_03\DOT\Debug\DOT_Editor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Louis\Desktop\DOTV04UNSTABLE_03\DOT\Debug\DOT_Editor.lib" /MACHINE:X86 /SAFESEH Debug\qcustomplot.obj
+         Debug\sidebar.obj
+         Debug\moc_GradEditor.obj
+         Debug\moc_GridEditor.obj
+         Debug\moc_Inheritance.obj
+         Debug\moc_MainWindow.obj
+         Debug\moc_ObjectEditor.obj
+         Debug\moc_qcustomplot.obj
+         Debug\moc_qpiemenu.obj
+         Debug\moc_qtlinker.obj
+         Debug\moc_runner.obj
+         Debug\moc_sidebar.obj
+         Debug\moc_SliderBoxWidget.obj
+         Debug\moc_TextBoxWidget.obj
+         Debug\moc_TreeView.obj
+         Debug\moc_TreeViewEntity.obj
+         Debug\moc_TreeWidget.obj
+         Debug\qrc_qtlinker.obj
+         Debug\GradEditor.obj
+         Debug\GraphicsViewEditor.obj
+         Debug\GridEditor.obj
+         Debug\main.obj
+         Debug\MainWindow.obj
+         Debug\ObjectEditor.obj
+         Debug\qpiemenu.obj
+         Debug\qtlinker.obj
+         Debug\runner.obj
+         Debug\SliderBoxWidget.obj
+         Debug\TextBoxWidget.obj
+         Debug\TreeItem.obj
+         Debug\TreeView.obj
+         Debug\TreeViewEntity.obj
+         Debug\TreeWidget.obj
+         LINK : C:\Users\Louis\Desktop\DOTV04UNSTABLE_03\DOT\Debug\DOT_Editor.exe not found or not built by the last incremental link; performing full link
+         qtLinker.vcxproj -> C:\Users\Louis\Desktop\DOTV04UNSTABLE_03\DOT\Debug\DOT_Editor.exe
+     1>Done Building Project "C:\Users\Louis\Desktop\DOTV04UNSTABLE_03\DOT\qtLinker\qtLinker.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.83
